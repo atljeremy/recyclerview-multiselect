@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
 apply plugin: 'signing'
+apply plugin: 'com.github.dcendents.android-maven'
 
 buildscript {
     repositories {
@@ -10,6 +11,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0-rc03'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 
@@ -20,8 +22,8 @@ allprojects {
     }
 }
 
-version '0.1'
-group 'com.bignerdranch.android'
+version '0.3'
+group 'com.github.atljeremy'
 
 def isSnapshot = version.endsWith('-SNAPSHOT')
 
