@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/criminalintent-sample/criminalintent-sample.iml" filepath="$PROJECT_DIR$/criminalintent-sample/criminalintent-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerview-multiselect.iml" filepath="$PROJECT_DIR$/recyclerview-multiselect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/recyclerview-multiselect/recyclerview-multiselect-recyclerview-multiselect.iml" filepath="$PROJECT_DIR$/recyclerview-multiselect/recyclerview-multiselect-recyclerview-multiselect.iml" />
     </modules>
   </component>
 </project>
